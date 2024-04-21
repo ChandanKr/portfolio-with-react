@@ -1,10 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
+import MobileNav from "./MobileNav/MobileNav";
 
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
     <>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+
       <nav className="nav-wrapper">
         <div className="nav-content">
           <img src="./assets/images/nav-logo.png" alt="" className="logo" />
@@ -23,13 +32,17 @@ const Navbar = () => {
               <a className="menu-item">Contact Me</a>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
+            <button className="contact-btn" onClick={toggleMenu}>
               Hire Me
             </button>
           </ul>
 
-          <button className="menu-btn" onClick={() => {}}>
-            <img src="./assets/images/menu-icon2.png" alt="" className="" />
+          <button className="menu-btn" onClick={toggleMenu}>
+            {openMenu ? (
+              <img src="./assets/images/close-icon.png" alt="" className="" />
+            ) : (
+              <img src="./assets/images/menu-icon.png" alt="" className="" />
+            )}
           </button>
         </div>
       </nav>
