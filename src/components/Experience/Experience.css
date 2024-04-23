@@ -1,0 +1,32 @@
+.experience-container {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.experience-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+
+.experience-line-before {
+  background-color: aqua;
+  width: 4rem;
+  height: 0.2rem;
+}
+
+.experience-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .experience-container h5 {
+    font-size: 1.3rem;
+  }
+
+  .experience-heading {
+    margin-bottom: 2rem;
+  }
+}
