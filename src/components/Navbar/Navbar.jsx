@@ -46,7 +46,12 @@ const Navbar = () => {
             </li>
 
             <button className="contact-btn" onClick={toggleMenu}>
-              Hire Me
+              <a
+                href="#contactme"
+                style={{ textDecoration: "none", color: "#FFF" }}
+              >
+                Hire Me
+              </a>
             </button>
           </ul>
 
