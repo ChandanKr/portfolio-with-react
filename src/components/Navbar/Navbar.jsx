@@ -20,19 +20,29 @@ const Navbar = () => {
 
           <ul>
             <li>
-              <a className="menu-item">Home</a>
+              <a href="#hero" className="menu-item">
+                Home
+              </a>
             </li>
             <li>
-              <a className="menu-item">Skills</a>
+              <a href="#skills" className="menu-item">
+                Skills
+              </a>
             </li>
             <li>
-              <a className="menu-item">Experience</a>
+              <a href="#experience" className="menu-item">
+                Experience
+              </a>
             </li>
             <li>
-              <a className="menu-item">Projects</a>
+              <a href="#projects" className="menu-item">
+                Projects
+              </a>
             </li>
             <li>
-              <a className="menu-item">Contact Me</a>
+              <a href="#contactme" className="menu-item">
+                Contact Me
+              </a>
             </li>
 
             <button className="contact-btn" onClick={toggleMenu}>

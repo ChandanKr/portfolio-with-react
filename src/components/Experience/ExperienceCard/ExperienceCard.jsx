@@ -14,6 +14,7 @@ const ExperienceCard = ({ details }) => {
             <li key={item}>{item}</li>
           ))}
         </ul>
+        <div id="projects"></div>
       </div>
     </>
   );

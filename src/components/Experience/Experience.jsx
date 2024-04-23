@@ -1,8 +1,7 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Experience.css";
 import { EXPERIENCE } from "../../utils/data";
 import ExperienceCard from "./ExperienceCard/ExperienceCard";
-import Slider from "react-slick";
 
 const Experience = () => {
   return (

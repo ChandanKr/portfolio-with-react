@@ -15,6 +15,7 @@ const ProjectsCard = ({ details }) => {
           ))}
         </ul>
       </div>
+      <div id="contactme"></div>
     </>
   );
 };
