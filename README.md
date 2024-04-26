@@ -1,2 +1,2 @@
 # My Portfolio
-### **WIP**
+### **Hosted URL** : https://chandan-kr-portfolio.netlify.app/
