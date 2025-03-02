@@ -10,7 +10,7 @@ export const SKILLS = [
     ],
   },
   {
-    title: "Frontend/Backend",
+    title: "Web Dev.",
     icon: "./assets/images/backend-icon.png",
     skills: [
       { skill: "HTML5 & CSS3", percentage: "80%" },
