@@ -12,8 +12,9 @@ const Hero = () => {
           </div>
           <h2>Chandan Kumar</h2>
           <p>
-           Frontend Software Developer | 2.5 Years of Hands-on Experience | Transforming Ideas into Seamless and
-            Visually Stunning Web Solutions
+            Aspiring Data Analyst | Frontend Software Developer | 3.3 Years of
+            Hands-on Experience | Turning raw data into actionable insights to
+            empower businesses with data-driven intelligence.
           </p>
         </div>
 

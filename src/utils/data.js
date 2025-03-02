@@ -1,21 +1,22 @@
 export const SKILLS = [
   {
-    title: "Frontend",
+    title: "Data Analytics",
     icon: "./assets/images/frontend-icon.png",
     skills: [
-      { skill: "HTML5", percentage: "80%" },
-      { skill: "CSS3", percentage: "70%" },
-      { skill: "JavaScript", percentage: "80%" },
-      { skill: "React.js", percentage: "80%" },
+      { skill: "Spreadsheets (Excel/Google Sheet)", percentage: "90%" },
+      { skill: "SQL", percentage: "80%" },
+      { skill: "Power BI", percentage: "75%" },
+      { skill: "Visualisation", percentage: "90%" },
     ],
   },
   {
-    title: "Backend",
-    icon: "./assets/images/Backend-icon.png",
+    title: "Frontend/Backend",
+    icon: "./assets/images/backend-icon.png",
     skills: [
-      { skill: "Node.js", percentage: "70%" },
-      { skill: "Express.js", percentage: "65%" },
-      { skill: "MongoDB", percentage: "45%" },
+      { skill: "HTML5 & CSS3", percentage: "80%" },
+      { skill: "JavaScript", percentage: "80%" },
+      { skill: "React.js", percentage: "80%" },
+      { skill: "Node.js & Express.js", percentage: "70%" },
     ],
   },
   {
@@ -25,7 +26,7 @@ export const SKILLS = [
       { skill: "Git & GitHub", percentage: "90%" },
       { skill: "Visual Studio Code", percentage: "80%" },
       { skill: "Webpack & Parcel", percentage: "65%" },
-      { skill: "Responsive Design", percentage: "80%" },
+      { skill: "MySQL Workbench", percentage: "90%" },
     ],
   },
   {
@@ -43,7 +44,7 @@ export const SKILLS = [
 export const EXPERIENCE = [
   {
     title: "Frontend Developer at Mphasis",
-    date: "December 2021 - Present",
+    date: "December 2021 - February 2025",
     responsibilities: [
       "Implemented Content Security Policy (CSP) hardening alongside backend API integrations.",
       "Implemented filters, pagination, and UI enhancements based on Figma designs.",
@@ -55,12 +56,24 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "IT Ticket Analysis Report (Spreadsheet Project), Newton School",
+    description:
+      "IT Support Ticket Analysis to evaluate agent performance, optimize resolution efficiency, and enhance service quality through data-driven staffing decisions.",
+    date: "Jaunary 2025 - February 2025",
+    responsibilities: [
+      "Analyzed IT support data to drive informed staffing decisions.",
+      "Identified training needs to enhance agent performance.",
+      "Assessed software efficiency to optimize ticket resolution.",
+      "Provided insights to improve overall team productivity and service quality.",
+    ],
+  },
+  {
     title: "Schneider_E2e_AMS_Project (4 Applications), Mphasis",
     description:
       "Ecommerce Project fulfilling many business requirements through electrical equipment and products.",
-    date: "December 2021 - Present",
+    date: "December 2021 - February 2025",
     responsibilities: [
-      "Integrated backend API’s and fetched the data to manipulate the frontend part.",
+      "Integrated backend API's and fetched the data to manipulate the frontend part.",
       "Worked on filters and pagination to load limited data in the current page.",
       "Development, Defect / Bug Fixing and Unit Testing.",
       "Client Communication and KT for new team members.",
