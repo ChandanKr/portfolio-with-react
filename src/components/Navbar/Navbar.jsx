@@ -39,18 +39,19 @@ const Navbar = () => {
                 Projects
               </a>
             </li>
-            {/* <li>
+            <li>
               <a href="#contactme" className="menu-item">
                 Contact Me
               </a>
-            </li> */}
+            </li>
 
             <button className="contact-btn" onClick={toggleMenu}>
               <a
-                href="#contactme"
+                href="./assets/resume/Chandan_Kumar_Data_Analyst_Resume.pdf"
+                download="Chandan_Kumar_Data_Analyst_Resume.pdf"
                 style={{ textDecoration: "none", color: "#FFF" }}
               >
-                Contact or Hire Me
+                My Resume
               </a>
             </button>
           </ul>
