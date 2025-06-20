@@ -23,10 +23,10 @@ export const SKILLS = [
     title: "Dev. Tools",
     icon: "./assets/images/tools-icon.png",
     skills: [
-      { skill: "Git & GitHub", percentage: "90%" },
-      { skill: "Visual Studio Code", percentage: "80%" },
       { skill: "Power BI Desktop", percentage: "85%" },
       { skill: "MySQL Workbench", percentage: "90%" },
+      { skill: "Git & GitHub", percentage: "90%" },
+      { skill: "Visual Studio Code", percentage: "80%" },
     ],
   },
   {
@@ -34,8 +34,8 @@ export const SKILLS = [
     icon: "./assets/images/soft-skills-icon.png",
     skills: [
       { skill: "Problem Solving", percentage: "90%" },
-      { skill: "Decision Making", percentage: "80%" },
-      { skill: "Storytelling", percentage: "85%" },
+      { skill: "Decision Making", percentage: "85%" },
+      { skill: "Storytelling", percentage: "95%" },
       { skill: "Strong Communication", percentage: "90%" },
     ],
   },
