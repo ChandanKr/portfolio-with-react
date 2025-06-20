@@ -54,7 +54,34 @@ export const EXPERIENCE = [
   },
 ];
 
-export const PROJECTS = [
+export const PROFESSIONAL_PROJECTS = [
+  {
+    title: "Schneider_E2e_AMS_Project (4 Applications), Mphasis",
+    description:
+      "Ecommerce Project fulfilling many business requirements through electrical equipment and products.",
+    date: "December 2021 - February 2025",
+    responsibilities: [
+      "Integrated backend API's and fetched the data to manipulate the frontend part.",
+      "Worked on filters and pagination to load limited data in the current page.",
+      "Development, Defect / Bug Fixing and Unit Testing.",
+      "Client Communication and KT for new team members.",
+    ],
+  },
+  {
+    title: "One Licensing Maintenance (1 Application), Mphasis",
+    description:
+      "Ecommerce Project fulfilling many business requirements by providing licenses for electrical equipment and products and providing self-service portal to the users.",
+    date: "January 2024 - March 2024",
+    responsibilities: [
+      "Worked on Content Security Policy (CSP) hardening on website’s security headers.",
+      "Created concise documentations over confluence, Jira, Ms-Word and Ms-Excel.",
+      "Internal and External Discussion for Project specific requirements.",
+      "Development, Defect / Bug Fixing and Unit Testing.",
+    ],
+  },
+];
+
+export const PERSONAL_PROJECTS = [
   {
     title: "Bank CRM Analysis (Power BI Project), Newton School",
     description: "Designed interactive dashboards and visual reports to analyze customer churn behavior and segment risk levels, supporting data-driven decision-making in customer retention and upselling.",
@@ -88,30 +115,6 @@ export const PROJECTS = [
       "Identified training needs to enhance agent performance.",
       "Assessed software efficiency to optimize ticket resolution.",
       "Provided insights to improve overall team productivity and service quality.",
-    ],
-  },
-  {
-    title: "Schneider_E2e_AMS_Project (4 Applications), Mphasis",
-    description:
-      "Ecommerce Project fulfilling many business requirements through electrical equipment and products.",
-    date: "December 2021 - February 2025",
-    responsibilities: [
-      "Integrated backend API's and fetched the data to manipulate the frontend part.",
-      "Worked on filters and pagination to load limited data in the current page.",
-      "Development, Defect / Bug Fixing and Unit Testing.",
-      "Client Communication and KT for new team members.",
-    ],
-  },
-  {
-    title: "One Licensing Maintenance (1 Application), Mphasis",
-    description:
-      "Ecommerce Project fulfilling many business requirements by providing licenses for electrical equipment and products and providing self-service portal to the users.",
-    date: "January 2024 - March 2024",
-    responsibilities: [
-      "Worked on Content Security Policy (CSP) hardening on website’s security headers.",
-      "Created concise documentations over confluence, Jira, Ms-Word and Ms-Excel.",
-      "Internal and External Discussion for Project specific requirements.",
-      "Development, Defect / Bug Fixing and Unit Testing.",
     ],
   },
   {

@@ -30,6 +30,9 @@ const Hero = () => {
             />
           </div>
 
+          {/* This is for navigation only, please ignore this */}
+          <div id="skillssection"></div> 
+
           <div>
             <div className="tech-icon">
               <img src="./assets/images/sql-logo.png" alt="sql-logo" />

@@ -11,12 +11,12 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
 
           <ul>
             <li onClick={toggleMenu}>
-              <a href="#hero" className="menu-item">
+              <a href="#herosection" className="menu-item">
                 Home
               </a>
             </li>
             <li onClick={toggleMenu}>
-              <a href="#skills" className="menu-item">
+              <a href="#skillssection" className="menu-item">
                 Skills
               </a>
             </li>
