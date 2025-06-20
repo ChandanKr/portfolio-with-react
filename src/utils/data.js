@@ -5,7 +5,7 @@ export const SKILLS = [
     skills: [
       { skill: "Spreadsheets (Excel/Google Sheet)", percentage: "90%" },
       { skill: "SQL", percentage: "80%" },
-      { skill: "Power BI", percentage: "75%" },
+      { skill: "Power BI", percentage: "85%" },
       { skill: "Visualisation", percentage: "90%" },
     ],
   },
@@ -13,10 +13,10 @@ export const SKILLS = [
     title: "Web Dev.",
     icon: "./assets/images/backend-icon.png",
     skills: [
+      { skill: "Python", percentage: "70%" },
       { skill: "HTML5 & CSS3", percentage: "80%" },
       { skill: "JavaScript", percentage: "80%" },
-      { skill: "React.js", percentage: "80%" },
-      { skill: "Node.js & Express.js", percentage: "70%" },
+      { skill: "React.js", percentage: "85%" },
     ],
   },
   {
@@ -25,7 +25,7 @@ export const SKILLS = [
     skills: [
       { skill: "Git & GitHub", percentage: "90%" },
       { skill: "Visual Studio Code", percentage: "80%" },
-      { skill: "Webpack & Parcel", percentage: "65%" },
+      { skill: "Power BI Desktop", percentage: "85%" },
       { skill: "MySQL Workbench", percentage: "90%" },
     ],
   },
@@ -35,7 +35,7 @@ export const SKILLS = [
     skills: [
       { skill: "Problem Solving", percentage: "90%" },
       { skill: "Decision Making", percentage: "80%" },
-      { skill: "Multi Tasking", percentage: "85%" },
+      { skill: "Storytelling", percentage: "85%" },
       { skill: "Strong Communication", percentage: "90%" },
     ],
   },
@@ -55,6 +55,29 @@ export const EXPERIENCE = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Bank CRM Analysis (Power BI Project), Newton School",
+    description: "Designed interactive dashboards and visual reports to analyze customer churn behavior and segment risk levels, supporting data-driven decision-making in customer retention and upselling.",
+    date: "May 2025 - June 2025",
+    objective: "To explore customer churn patterns based on demographics and credit profiles, identify high-risk segments, and recommend personalized strategies to improve retention and upsell opportunities.",
+    responsibilities: [
+      "Designed dashboards to track churn by demographics and credit score.",
+      "Identified high-risk segments for targeted retention.",
+      "Analyzed product usage and customer value patterns.",
+      "Recommended upsell strategies using customer insights.",
+    ],
+  },
+  {
+    title: "Chinook Music Store Analysis (SQL Project), Newton School",
+    description: "To analyze the Chinook music store database using SQL in order to uncover customer behavior patterns, identify top-performing genres and artists, and generate insights that support targeted marketing and revenue optimization strategies.",
+    date: "March 2025 - April 2025",
+    responsibilities: [
+      "Analyzed customer behavior and revenue trends across global regions.",
+      "Identified Rock as the top-selling genre and high-value customers.",
+      "Explored genre and artist affinities for cross-promotional campaigns.",
+      "Recommended top Rock albums and tailored region-specific strategies.",
+    ],
+  },
   {
     title: "IT Ticket Analysis Report (Spreadsheet Project), Newton School",
     description:

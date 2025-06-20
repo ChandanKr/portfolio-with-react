@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="hero-img">
           <div>
             <div className="tech-icon">
-              <img src="./assets/images/react-logo.png" alt="react-logo" />
+              <img src="./assets/images/Power-BI-Logo.png" alt="Power-BI-Logo" />
             </div>
             <img
               src="./assets/images/hero-img-red-bg.jpg"
@@ -32,13 +32,13 @@ const Hero = () => {
 
           <div>
             <div className="tech-icon">
-              <img src="./assets/images/html-logo.png" alt="html-logo" />
+              <img src="./assets/images/sql-logo.png" alt="sql-logo" />
             </div>
             <div className="tech-icon">
-              <img src="./assets/images/css-logo.png" alt="css-logo" />
+              <img src="./assets/images/spreadsheet-logo.png" alt="spreadsheet-logo" />
             </div>
             <div className="tech-icon">
-              <img src="./assets/images/js-logo.png" alt="js-logo" />
+              <img src="./assets/images/python-logo.png" alt="python-logo" />
             </div>
           </div>
         </div>
