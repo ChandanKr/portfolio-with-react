@@ -17,7 +17,7 @@ const ContactInfoCard = ({
             <img src={iconOne} alt="" />
           </div>
           <p>
-            <a href={urlOne}>{textOne}</a>
+            <a href={urlOne} target="_chandan">{textOne}</a>
           </p>
         </div>
 
@@ -26,7 +26,7 @@ const ContactInfoCard = ({
             <img src={iconTwo} alt="" />
           </div>
           <p>
-            <a href={urlTwo}>{textTwo}</a>
+            <a href={urlTwo} target="_chandan">{textTwo}</a>
           </p>
         </div>
       </div>

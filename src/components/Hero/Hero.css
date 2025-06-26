@@ -68,12 +68,12 @@
 }
 
 .hero-img {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  margin-top: 5rem;
+  gap: 1rem;
+  margin-top: 3rem;
 }
 
 .hero-img > div {
@@ -88,7 +88,11 @@
 }
 
 .main-img {
-  border-radius: 15%;
+  border-radius: 10%;
+}
+
+.main-img:hover {
+  box-shadow: 0px 0px 10px #a993fe;
 }
 
 .tech-icon {

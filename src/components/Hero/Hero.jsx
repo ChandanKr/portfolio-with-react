@@ -12,10 +12,13 @@ const Hero = () => {
           </div>
           <h2>Chandan Kumar</h2>
           <p>
+            An experienced Software Engineer with 3+ years in frontend development using ReactJS, JavaScript, HTML, and CSS at Mphasis since December 2021. Skilled in building user-friendly and efficient web applications in Agile teams. Now shifting to Data Analytics, learning tools like Excel, SQL, Python, and Power BI. Looking to use my technical background and growing data skills to support smart, data-based decisions. Open to new roles as a Data Analyst.
+          </p>
+          {/* <p>
             Aspiring Data Analyst | Frontend Software Developer | 3.3 Years of
             Hands-on Experience | Turning raw data into actionable insights to
             empower businesses with data-driven intelligence.
-          </p>
+          </p> */}
         </div>
 
         <div className="hero-img">
@@ -24,7 +27,8 @@ const Hero = () => {
               <img src="./assets/images/Power-BI-Logo.png" alt="Power-BI-Logo" />
             </div>
             <img
-              src="./assets/images/hero-img-red-bg.jpg"
+              // src="./assets/images/hero-img-red-bg.jpg"
+              src="./assets/images/chandan_hd.png"
               alt="hero-img"
               className="main-img"
             />
