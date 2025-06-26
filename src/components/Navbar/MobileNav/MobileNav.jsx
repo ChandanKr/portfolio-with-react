@@ -36,8 +36,9 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               </a>
             </li>
 
-            <button className="contact-btn" onClick={toggleMenu}>
               <a
+                className="contact-btn" 
+                onClick={toggleMenu}
                 href="./assets/resume/Chandan_Kumar_Data_Analyst_Resume.pdf"
                 // download="Chandan_Kumar_Data_Analyst_Resume.pdf"
                 style={{ textDecoration: "none", color: "#FFF" }}
@@ -45,7 +46,6 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
               >
                 Resume
               </a>
-            </button>
           </ul>
         </div>
       </div>
