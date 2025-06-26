@@ -48,8 +48,9 @@ const Navbar = () => {
             <button className="contact-btn" onClick={toggleMenu}>
               <a
                 href="./assets/resume/Chandan_Kumar_Data_Analyst_Resume.pdf"
-                download="Chandan_Kumar_Data_Analyst_Resume.pdf"
+                // download="Chandan_Kumar_Data_Analyst_Resume.pdf"
                 style={{ textDecoration: "none", color: "#FFF" }}
+                target="_chandan"
               >
                 My Resume
               </a>
