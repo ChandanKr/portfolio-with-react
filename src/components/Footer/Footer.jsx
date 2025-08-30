@@ -14,10 +14,10 @@ const Footer = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    fetch("https://api.getcounter.dev/user/chandan-kr-portfolio")
-      .then(res => res.json())
-      .then(data => setCount(data.count))
-      .catch(err => console.error("Visitor counter error:", err));
+    fetch("https://countapi.julien-maury.dev/hit/chandan-kr-portfolio/visits")
+      .then((res) => res.json())
+      .then((data) => setCount(data.value))
+      .catch((err) => console.error("Visitor counter error:", err));
   }, []);
 
   return (
