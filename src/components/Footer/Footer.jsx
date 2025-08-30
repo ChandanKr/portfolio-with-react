@@ -13,18 +13,11 @@ import "./Footer.css";
 const Footer = () => {
   const [count, setCount] = useState(0);
 
-  // useEffect(() => {
-  //   fetch("https://api.getcounter.dev/user/chandan-portfolio")
-  //     .then(res => res.json())
-  //     .then(data => setCount(data.count))
-  //     .catch(err => console.error("Visitor counter error:", err));
-  // }, []);
-
   useEffect(() => {
-    fetch("https://api.getcounter.dev/user/chandan-portfolio-12345")
-      .then((res) => res.json())
-      .then((data) => setCount(data.count))
-      .catch((err) => console.error("Visitor counter error:", err));
+    fetch("https://api.getcounter.dev/user/chandan-portfolio")
+      .then(res => res.json())
+      .then(data => setCount(data.count))
+      .catch(err => console.error("Visitor counter error:", err));
   }, []);
 
   return (
