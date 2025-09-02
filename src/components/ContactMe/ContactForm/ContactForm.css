@@ -115,3 +115,26 @@ form button:hover {
   flex: 1;
   width: -webkit-fill-available;
 }
+
+
+/* Loader styling */
+.loader {
+  border: 3px solid #fff;
+  border-top: 3px solid #8064e8; /* Loader color */
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
